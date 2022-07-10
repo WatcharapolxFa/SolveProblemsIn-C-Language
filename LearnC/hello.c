@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    /* code */
-    printf("Hello Language C");
+    int a = 8, b = 10;
+    int num = a * b;
+    printf("ans =%d ", num);
     return 0;
 }
