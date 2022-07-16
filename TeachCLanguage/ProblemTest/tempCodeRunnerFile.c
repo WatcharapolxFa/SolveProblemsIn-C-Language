@@ -1,0 +1,1 @@
+  if (scanf("%d", &hour) <= 24)
