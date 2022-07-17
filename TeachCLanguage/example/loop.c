@@ -4,10 +4,14 @@ int main()
     /* code */
 
     int count = 10;
-    for (int j = 11; j < count;)
+    for (int j = 0; j < count; j++)
     {
-        printf("lob %d Hi!\n", j);
-        j += 5;
+        printf("*\n");
+        for (int i = 0; i < count;)
+        {
+            printf("* * * \n");
+            i = i + 2;
+        }
     }
 
     // int count = 5;
