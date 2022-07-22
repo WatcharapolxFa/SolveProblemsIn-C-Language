@@ -8,7 +8,7 @@ int main()
         scanf("%d", &final);
         if (final > 50 || final < 0)
         {
-            printf("Error, enter within 0-50 range.");
+            printf("Error, enter with in 0-50 range.");
             break;
         }
 
@@ -16,14 +16,14 @@ int main()
         scanf("%d", &mid);
         if (mid > 30 || mid < 0)
         {
-            printf("Error, enter within 0-30 range.");
+            printf("Error, enter with in 0-30 range.");
             break;
         }
         printf("Enter homework scores= ");
         scanf("%d", &hw);
         if (hw > 20 || hw < 0)
         {
-            printf("Error, enter within 0-20 range.");
+            printf("Error, enter with in 0-20 range.");
             break;
         }
         sum = final + mid + hw;
