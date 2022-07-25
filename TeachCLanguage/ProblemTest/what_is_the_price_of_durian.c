@@ -7,6 +7,6 @@ int main()
     scanf("%d", &durian);
     answer = durian * unit;
     printf("You want durian %d price per result %d \n", durian, unit);
-    printf("Total  price to be paid : %d $ ", answer);
+    printf("Total  price to be paid : %d Baht ", answer);
     return 0;
 }
